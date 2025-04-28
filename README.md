@@ -27,6 +27,7 @@ In this work, we embrace the RL paradigm and introduce **ReTool**, a **Tool**-au
 ## Model Use
 
 We provide the model weights of [ReTool-Qwen-32B](https://huggingface.co/JoeYing/ReTool-Qwen-32B) and [ReTool-DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/JoeYing/ReTool-DeepSeek-R1-Distill-Qwen-32B), which are trained based on Qwen2.5-32B-Instruct and DeepSeek-R1-Distill-Qwen-32B.
+Note: ReTool-Qwen-32B achieves 67% on AIME 24, and ReTool-DeepSeek-R1-Distill-Qwen-32B achieves 72% on AIME 24.
 
 ### Environment Setup
 
