@@ -14,7 +14,7 @@
 
 **🔥 News!!!**
 
-- [2025/04] We release the model checkpoints and inference code. <span style="color: red;">[New!]</span>
+- [2025/04] We release the model checkpoints and inference code. <span style="color: red;">[**New!**]</span>
 
 
 
@@ -26,7 +26,7 @@ In this work, we embrace the RL paradigm and introduce **ReTool**, a **Tool**-au
 
 ## Model Use
 
-We provide the model weights of [ReTool-Qwen-32B](https://huggingface.co/JoeYing/ReTool-Qwen-32B) and [ReTool-DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/JoeYing/ReTool-DeepSeek-R1-Distill-Qwen-32B), which are trained based on Qwen2.5-32B-Instruct and DeepSeek-R1-Distill-Qwen-32B
+We provide the model weights of [ReTool-Qwen-32B](https://huggingface.co/JoeYing/ReTool-Qwen-32B) and [ReTool-DeepSeek-R1-Distill-Qwen-32B](https://huggingface.co/JoeYing/ReTool-DeepSeek-R1-Distill-Qwen-32B), which are trained based on Qwen2.5-32B-Instruct and DeepSeek-R1-Distill-Qwen-32B.
 
 ### Environment Setup
 
@@ -54,9 +54,9 @@ bash scripts/eval.sh
 ```
 
 ### Datasets
-We provide training and validation datasets for ReTool training.
+We provide training and validation datasets for ReTool.
 
-- Cold-Start: [ReTool-SFT](https://huggingface.co/datasets/JoeYing/ReTool-SFT)
+- Cold-Start: [ReTool-SFT](https://huggingface.co/datasets/JoeYing/ReTool-SFT).
 - RL Training: [DAPO-Math-17k](https://huggingface.co/datasets/BytedTsinghua-SIA/DAPO-Math-17k) by [DAPO](https://arxiv.org/pdf/2503.14476), thanks for their great work!
 - RL Validation: AIME 2024, AIME 2025 (can be found in `evaluation/dataset`)
 
